@@ -1,0 +1,9 @@
+module Main where
+
+import System.Random (randomRIO)
+
+main :: IO ()
+main = do
+    let fruits = ["Mangue", "Banane", "Orange", "Papaye", "Ananas"]
+    index <- randomRIO (0, length fruits - 1)
+    putStrLn $ "Fruit choisi : " ++ fruits !! index
