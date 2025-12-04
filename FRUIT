@@ -1,0 +1,5 @@
+module Main where
+
+main :: IO ()
+main = do
+    putStrLn "Fruits : Mangue, Orange, Banane, Ananas"
