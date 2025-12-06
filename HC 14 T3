@@ -1,0 +1,12 @@
+{-# LANGUAGE NumericUnderscores #-}
+
+module Main where
+
+main :: IO ()
+main = do
+    let salaire     = 100_000
+        distance    = 3_159_345_000
+        grandNombre = 999_999_999_999
+    putStrLn ("Salaire : " ++ show salaire ++ " $")
+    putStrLn ("Distance : " ++ show distance)
+    putStrLn ("Grand nombre : " ++ show grandNombre)
